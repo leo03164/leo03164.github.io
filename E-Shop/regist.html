@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>假ByeBye商城</title>
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <div class="container">
+  <div class="py-3 text-center">    
+    <h2>成為會員</h2>    
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 order-md-1">
+      <h4 class="mb-3">基本資料</h4>
+      <form class="needs-validation" novalidate>
+        <div class="row">
+          <div class="col-md-6 mb-3" style="width: 200px;">
+            <label for="Name">姓名 <i class="fas fa-user-alt"></i></label>
+            <input type="text" class="form-control" id="Name" placeholder="" value="" required>                        
+          </div> 
+          <div class="col-md-6 mb-3" style="width: 200px;">
+            <label for="Phone">手機 <i class="fas fa-phone-alt"></i></label>
+            <input type="text" class="form-control" id="Phone" placeholder="" value="" required>                        
+          </div>         
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-3" style="width: 200px;">
+                <label for="birthday">生日 <i class="fas fa-birthday-cake"></i></label>
+                <input class="form-control" id="birthday" name="Birthday" type="date" required>                
+            </div>
+    
+            <div class="col-md-6 mb-3" style="width: 200px;">
+                <label for="Name">身份證字號 <i class="fas fa-id-card"></i></label>
+                <input type="text" class="form-control" id="Name" placeholder="" value="" required>                        
+            </div>
+        </div>
+        
+
+        <div class="mb-3">
+          <label for="Email">Email <i class="fas fa-envelope"></i></label>
+          <input type="email" class="form-control" id="Email">
+        </div>
+
+        <div class="mb-3">
+          <label for="Address">地址 <i class="fas fa-map-marker-alt"></i></label>
+          <input type="text" class="form-control" id="Address" required>
+
+          <label for="recommend">推薦人 <i class="fas fa-user-plus"></i></label>
+          <input type="text" class="form-control" id="recommend" required>
+        
+          <label for="exampleFormControlFile1" style="margin-top: 5px;">身分證正面</label>
+          <input type="file" class="form-control-file" id="exampleFormControlFile1" style="width:200px;">
+
+          <label for="exampleFormControlFile1" style="margin-top: 7px;">身分證反面</label>
+          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+
+        </div>
+        
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="same-address">
+          <label class="custom-control-label" for="same-address">我已閱讀<a href="#">假ByeBye隱私權設定須知</a></label>
+        </div>
+        
+        <hr class="mb-2">
+        <button class="btn btn-primary btn-lg btn-block" type="submit">送出</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="my-3 pt-3 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2017-2020 假ByeBye商城</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+        <script src="form-validation.js"></script></body>
+</html>

@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.header{
+    width: 100%;
+    font-size: 0;
+}
+
+.search-bar{
+    border-radius: 5px !important; 
+    height: 30px !important; 
+    margin: auto !important;
+}
+
+.btn-outline-secondary{
+    color: white;
+}
+
+.input-group{
+    padding: 5px;
+    background-color: #e07a5f
+}
+
+.fa-shopping-cart,
+.fa-comments{
+    color: white;
+    font-size: 25px;
+    padding:5px;
+}
+
+.fa-shopping-cart:hover,
+.fa-comments:hover{
+    cursor: pointer;
+}
+
+.small-icon{
+    width: 65px;
+    height: 65px;
+    padding: 5px;
+    border-radius: 25%;
+    border: #f0efeb 1px solid;
+}
+
+.icon-group{
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+}
+
+.icon-content{
+    display: flex;
+    width: 105px;
+    flex-direction: column;
+    text-align: center;            
+}
+
+.icon-text{
+    color: #000;
+}
+
+.breadcrumb{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(199, 79, 79);            
+}
+
+.card{
+    margin-top: 15px;
+    margin-left: 15px;
+    position: relative;
+    height: 420px;
+}
+
+.card-body .btn{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+
+.origin-price{
+    text-decoration: line-through;
+}
+
+.product-img{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.product-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-text{
+    font-weight: 300;
+    line-height: 1.2em;
+}
+
+.card-title{
+    font-weight: 500;
+}
+
+.warring-text{
+    font-size: 16px;
+    color: #e63946;
+}
+
+.seller-data{
+    color: #999;
+    font-size: 14px;
+}
+
+.seller-data .fa-gem{
+    color: #60e2ee;
+}
+
+.seller-data .fa-money-bill-alt{
+    color: #9ff88e;
+}
+
+.seller-data .fa-coins{
+    color: #ffba08;
+}

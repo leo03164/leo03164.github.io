@@ -7,124 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">    
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
     <title>假ByeBye商城</title>
 
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-            text-decoration: none;
-            font-family: 'Noto Sans TC', sans-serif;
-        }
-        .header{
-            width: 100%;
-            font-size: 0;
-        }
-
-        .search-bar{
-            border-radius: 5px !important; 
-            height: 30px !important; 
-            margin: auto !important;
-        }
-
-        .btn-outline-secondary{
-            color: white;
-        }
-
-        .input-group{
-            padding: 5px;
-            background-color: #e07a5f
-        }
-
-        .fa-shopping-cart,
-        .fa-comments{
-            color: white;
-            font-size: 25px;
-            padding:5px;
-        }
-
-        .fa-shopping-cart:hover,
-        .fa-comments:hover{
-            cursor: pointer;
-        }
-
-        .small-icon{
-            width: 65px;
-            height: 65px;
-            padding: 5px;
-            border-radius: 25%;
-            border: #f0efeb 1px solid;
-        }
-        
-        .icon-group{
-            width: 100%;
-            margin-top: 14px;
-            display: flex;
-        }
-
-        .icon-content{
-            display: flex;
-            width: 105px;
-            flex-direction: column;
-            text-align: center;            
-        }
-
-        .icon-text{
-            color: #000;
-        }
-
-        .breadcrumb{
-            margin-top: 20px;
-            margin-bottom: 10px;
-            background-color: rgb(199, 79, 79);            
-        }
-
-        .card{
-            margin-top: 15px;
-            margin-left: 15px;
-            position: relative;
-            height: 420px;
-        }
-
-        .card-body .btn{
-            position: absolute;
-            right: 10px;
-            bottom: 15px;
-        }
-
-        .origin-price{
-            text-decoration: line-through;
-        }
-
-        .product-img{
-            width: 100%;
-            height: 150px;
-            text-align: center;
-            line-height: 150px;
-        }
-
-        .product-img img{
-            width: 100%;
-            height: 100%;
-        }
-
-        .card-text{
-            font-weight: 300;
-            line-height: 1.2em;
-        }
-
-        .card-title{
-            font-weight: 500;
-        }
-
-        .warring-text{
-            font-size: 16px;
-            color: #e63946;
-        }
-
-    </style>
   </head>
   <body>
     <div class="header">
@@ -138,10 +25,11 @@
                 <a class="dropdown-item" href="#">精準搜尋 <i class="fas fa-thumbtack"></i></a>
                 <a class="dropdown-item" href="#">智能搜尋 <i class="fas fa-robot"></i></a>
               </div>
-            </div>
+            </div>            
+
             <input type="text" class="form-control search-bar" aria-label="Text input with dropdown button">
-            <i class="fas fa-shopping-cart"></i>
-            <i class="fas fa-comments"></i>
+            <a href="./regist.html"><i class="fas fa-shopping-cart"></i></a>
+            <a href=""><i class="fas fa-comments"></i></a>            
           </div>
     </div>
     <div class="container">
@@ -172,8 +60,7 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
-          </div>
-
+          </div>          
           <div class="icon-group">
             <div class="icon-content">
                 <a href=""><img src="img/medal.png" class="small-icon" alt="優質賣家"></a>
@@ -223,25 +110,25 @@
         <div class="row">
             <div class="card" style="width: 11.5rem;">
                 <div class="product-img">
-                    <a href="#"><img src="img/mk.jpg" class="card-img-top " alt="..."></a>
+                    <a href="./product-mk.html"><img src="img/mk.jpg" class="card-img-top " alt="..."></a>
                 </div>                    
                 <div class="card-body">
-                  <h5 class="card-title">MK 經典LOGO長夾</h5>
-                  <p class="card-text">8 × 4 × 1 cm </p>
+                  <h5 class="card-title">MK 經典長夾</h5>                                    
+                  <p class="card-text seller-data"><i class="fas fa-coins"></i>賣家: No.2986081</p>
                   <p class="card-text origin-price">原價:8,600 </p>
                   <p class="card-text">售價:4,300 </p>
                   <a href="#" class="btn btn-danger">BUY NOW!</a>
                 </div>
                 
             </div>
-    
+            
             <div class="card" style="width: 11.5rem;">
                 <div class="product-img">
                     <a href="#"><img src="img/burberry.png" class="card-img-top" alt="..."></a>                    
                 </div>                
                 <div class="card-body">
-                  <h5 class="card-title">Burberry Pocket 雙色包</h5>
-                  <p class="card-text">24 × 6 × 26.5 cm </p>
+                  <h5 class="card-title">Pocket 雙色包</h5>
+                  <p class="card-text seller-data"><i class="fas fa-gem"></i>賣家: No.743348</p>                  
                   <p class="card-text origin-price">原價:38,900 </p>
                   <p class="card-text">售價:28,500 </p>
                   <a href="#" class="btn btn-danger">BUY NOW!</a>
@@ -256,7 +143,7 @@
                 </div>                    
                 <div class="card-body">
                   <h5 class="card-title">口蓋包</h5>
-                  <p class="card-text">13 × 20 × 7 cm </p>
+                  <p class="card-text seller-data"><i class="fas fa-gem"></i>賣家: No.1106733</p>
                   <p class="card-text origin-price">原價:133,500 </p>
                   <p class="card-text ">售價:63,500 </p>
                   <a href="#" class="btn btn-danger">BUY NOW!</a>
@@ -270,7 +157,7 @@
                 </div>                
                 <div class="card-body">
                   <h5 class="card-title">經典口蓋包</h5>
-                  <p class="card-text">16 × 24 × 7 cm </p>
+                  <p class="card-text seller-data"><i class="fas fa-gem"></i>賣家: No.1106733</p>
                   <p class="card-text origin-price">原價:290,700 </p>
                   <p class="card-text ">售價:260,000 </p>
                   <a href="#" class="btn btn-danger">BUY NOW!</a>
@@ -285,7 +172,7 @@
                 </div>                    
                 <div class="card-body">
                   <h5 class="card-title">晚宴包</h5>
-                  <p class="card-text">22 × 13.5 × 13.5 cm </p>
+                  <p class="card-text seller-data"><i class="fas fa-gem"></i>賣家: No.1106733</p>
                   <p class="card-text origin-price">原價:113,500 </p>
                   <p class="card-text">售價:73,500 </p>
                   <p class="warring-text">售價低於市場行情! </p>
@@ -299,16 +186,25 @@
                     <a href="#"><img src="img/gucci.png" class="card-img-top" alt="..."></a>                    
                 </div>                
                 <div class="card-body">
-                  <h5 class="card-title">GG Marmont 超迷你手提包</h5>
-                  <p class="card-text">16 × 10 × 5.1 cm </p>
+                  <h5 class="card-title">GG迷你手提包</h5>
+                  <p class="card-text seller-data"><i class="fas fa-money-bill-alt"></i>賣家: No.1106738</p>
                   <p class="card-text origin-price">原價:6,900 </p>
                   <p class="card-text">售價:5,000 </p>
                   <a href="#" class="btn btn-danger">BUY NOW!</a>
                 </div>
             </div>
-        </div>
-            
+        </div>            
     </div>
+
+    <footer class="my-3 pt-3 text-muted text-center text-small">
+      <p class="mb-1">&copy; 2017-2020 假ByeBye商城</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><i class="fab fa-facebook-square" style="font-size: 30px; margin: 10px;"></i></li>
+        <li class="list-inline-item"><i class="fab fa-twitter-square" style="font-size: 30px; margin: 10px;"></i></li>
+        <li class="list-inline-item"><i class="fab fa-instagram-square" style="font-size: 30px; margin: 10px;"></i></li>
+      </ul>
+    </footer>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script>
         $('.dropdown-menu a').click(function(){

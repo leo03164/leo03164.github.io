@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+
+    <style>                
+        .product-main-img{
+            width: 100%;
+        }
+        .prodcut-sm-img{
+            width: 80px;
+            margin: 5px;
+        }
+        .text-content{
+            font-size: 16px;
+        }
+        .product-title{
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .buy-left{
+            width: 50%;
+            height: 42px;
+            border-radius: 0;
+            color: white !important;
+            background-color: rgb(199, 79, 79) !important;
+            text-align: center!important;
+            position: fixed!important;
+            bottom: 0!important;
+            left: 0!important;
+        }
+
+        .buy-right{
+            width: 50%;
+            height: 42px;
+            border-radius: 0;
+            color: white !important;
+            background-color: rgb(199, 79, 79) !important;
+            text-align: center!important;
+            position: fixed!important;
+            bottom: 0!important;
+            border-left: 1px white solid;
+            left: 50%;
+        }
+        .price{
+            font-size: 20px;
+            color: #d0011b;
+        }
+
+        .fa-heart{
+            font-size: 28px;
+        }
+    </style>
+    <title>假ByeBye商城</title>
+  </head>
+  <body>
+    <div class="header">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" style="border: none;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">簡易搜尋 <i class="fas fa-search"></i></button>
+              <span id="selected">Chose option</span><span class="caret"></span></a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">簡易搜尋 <i class="fas fa-search"></i></a>
+                <a class="dropdown-item" href="#">範圍搜尋 <i class="far fa-compass"></i></a>
+                <a class="dropdown-item" href="#">精準搜尋 <i class="fas fa-thumbtack"></i></a>
+                <a class="dropdown-item" href="#">智能搜尋 <i class="fas fa-robot"></i></a>
+              </div>
+            </div>            
+
+            <input type="text" class="form-control search-bar" aria-label="Text input with dropdown button">
+            <a href="./regist.html"><i class="fas fa-shopping-cart"></i></a>
+            <a href=""><i class="fas fa-comments"></i></a>            
+        </div>
+    </div>
+    <div class="container">        
+        <img src="img/mk.jpg" class="product-main-img"alt="">
+
+        <div class="row">
+            <img src="img/prodcut-sm-img-mk1.jpg" class="prodcut-sm-img" alt="">
+            <img src="img/prodcut-sm-img-mk2.jpg" class="prodcut-sm-img" alt="">
+            <img src="img/prodcut-sm-img-mk3.jpg" class="prodcut-sm-img" alt="">
+        </div>
+
+        <div class="product-title">
+            MK 經典長夾
+        </div>
+        <p class="card-text seller-data"><i class="fas fa-coins"></i> 賣家: No.2986081</p>
+        <div class="text-content">
+            從義大Outlet購入後未使用，割愛給有緣人。            
+            <br>
+            <div class="row">
+                <div class="mb-1 col-4">
+                    <p class="origin-price">原價:8,600 </p>
+                    <p class="price"><b>售價:4,300</b></p>
+                </div>
+            </div>                
+        </div>            
+    </div>
+    <a href="#" class="btn buy-left"><i class="far fa-heart"></i></a>
+    <a href="#" class="btn buy-right"><i class="fas fa-shopping-cart"></i></a>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>
+        $('.dropdown-menu a').click(function(){
+            $('#selected').text($(this).text());
+            document.getElementsByClassName("dropdown-toggle")[0].textContent=document.getElementById("selected").textContent;
+        });
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
